@@ -45,7 +45,7 @@ follow the package naming convention we use by default in our source files. In o
 
 Copy AdjustBridge `.js` files to your project. Add them to your `assets` folder.
 
-![][bridge-add]
+![][add]
 
 ### <a id="bridge-integrate-app"></a>Integrate AdjustBridge into your app
 
@@ -157,7 +157,7 @@ Adjust.onCreate(adjustConfig)
 // ...
 ```
 
-![][bridge-init-js-android]
+![][init]
 
 Replace `{YourAppToken}` with your app token. You can find this in your [dashboard].
 
@@ -194,7 +194,7 @@ adjustConfig.setLogLevel(AdjustConfig.LogLevelAssert)  // disable errors as well
 Build and run your app. If the build succeeds, you should carefully read the SDK logs in the console. After the app launches
 for the first time, you should see the info log `Install tracked`.
 
-![][bridge-install-tracked]
+![][install-tracked]
 
 ## <a id="additional-features">Additional features
 
@@ -577,13 +577,13 @@ For more information about this topic, please check our [official Android SDK RE
 [android-sdk-reattribution]:     https://github.com/adjust/android_sdk#deeplinking-reattribution
 [android-sdk-basic-integration]: https://github.com/adjust/android_sdk/blob/master/README.md#basic-integration
 
-[bridge-add]:              https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/bridge_add.png
-[bridge-init-js-android]:  https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/bridge_init_js_android.png
-[bridge-install-tracked]:  https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/bridge_install_tracked.png
+[add]:               https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/bridge_add.png
+[init]:              https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/bridge_init_js_android.png
+[install-tracked]:   https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/bridge_install_tracked.png
 
-[bridge-add-n]:              https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/jsb-add.png
-[bridge-init-js-android-n]:  https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/jsb-init.png
-[bridge-install-tracked-n]:  https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/jsb-install-tracked.png
+[add-n]:             https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/jsb-add.png
+[init-n]:            https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/jsb-init.png
+[install-tracked-n]: https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/jsb-install-tracked.png
 
 ## <a id="license">License
 
