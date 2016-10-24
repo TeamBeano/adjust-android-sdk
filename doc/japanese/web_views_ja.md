@@ -42,7 +42,7 @@ AdjustBridgeの`.java`ファイルをプロジェクトにコピーしてくだ�
 
 AdjustBridgeの`.js`ファイルをコピーし、プロジェクトの`assets`フォルダに追加してください。
 
-![][bridge_add]
+![][add]
 
 ### <a id="bridge-integrate-app"></a>アプリへのAdjustBridgeの統合
 
@@ -151,7 +151,7 @@ Adjust.onCreate(adjustConfig)
 // ...
 ```
 
-![][bridge_init_js_android]
+![][init]
 
 `{YourAppToken}`にアプリトークンを入力してください。これは[dashboard]で確認できます。
 
@@ -187,7 +187,7 @@ adjustConfig.setLogLevel(AdjustConfig.LogLevelAssert)  // errorも無効にす�
 
 アプリをビルドしてRunしてください。成功したら、コンソールに出力されるSDKのログをよく見てみてください。アプリが初めて立ち上がった後、infoログ`Install tracked`が出力されているはずです。
 
-![][bridge_install_tracked]
+![][install-tracked]
 
 ## <a id="additional-features">追加機能
 
@@ -561,9 +561,13 @@ AdjustBridgeでは、ユーザーリアトリビューションとディープ�
 [android-sdk-reattribution]:     https://github.com/adjust/android_sdk#deeplinking-reattribution
 [android-sdk-basic-integration]: https://github.com/adjust/android_sdk/blob/master/README.md#basic-integration
 
-[bridge_add]:              https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/bridge_add.png
-[bridge_init_js_android]:  https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/bridge_init_js_android.png
-[bridge_install_tracked]:  https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/bridge_install_tracked.png
+[add]:               https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/bridge_add.png
+[init]:              https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/bridge_init_js_android.png
+[install-tracked]:   https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/bridge_install_tracked.png
+
+[add-n]:             https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/jsb-add.png
+[init-n]:            https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/jsb-init.png
+[install-tracked-n]: https://raw.githubusercontent.com/adjust/sdks/master/Resources/android/bridge/jsb-install-tracked.png
 
 ## <a id="license">ライセンス
 
