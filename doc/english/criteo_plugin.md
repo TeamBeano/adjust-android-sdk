@@ -144,10 +144,9 @@ Adjust.trackEvent(event);
 
 ### Hashed Email
 
-It's possible to attach an hashed email in every Criteo event with the `injectHashedEmailIntoCriteoEvents` method.
-The hashed email will be sent with every Criteo event for the duration of the application lifecycle,
-so it must be set again when the app is re-lauched.
-The hashed email can be removed by setting the `injectHashedEmailIntoCriteoEvents` method with `null`.
+It's possible to attach an hashed email in every Criteo event with the `injectHashedEmailIntoCriteoEvents` method. The hashed 
+email will be sent with every Criteo event for the duration of the application lifecycle, so it must be set again when the app 
+is re-lauched. The hashed email can be removed by setting the `injectHashedEmailIntoCriteoEvents` method with `null`.
 
 ```java
 import com.adjust.sdk.plugin.AdjustCriteo;
@@ -157,7 +156,9 @@ AdjustCriteo.injectHashedEmailIntoCriteoEvents("8455938a1db5c475a87d76edacb6284e
 
 ### Search dates
 
-It's possible to attach a check-in and check-out date to every Criteo event with the `injectViewSearchDatesIntoCriteoEvent` method. The dates will be sent with every Criteo event for the duration of the application lifecycle, so it must be set again when the app is re-lauched.
+It's possible to attach a check-in and check-out date to every Criteo event with the `injectViewSearchDatesIntoCriteoEvent` 
+method. The dates will be sent with every Criteo event for the duration of the application lifecycle, so it must be set again 
+when the app is re-lauched.
 
 The search dates can be removed by setting the `injectViewSearchDatesIntoCriteoEvents` dates with `null`.
 
@@ -169,10 +170,9 @@ AdjustCriteo.injectViewSearchDatesIntoCriteoEvents("2015-01-01", "2015-01-07");
 
 ### Partner id
 
-It's possible to attach a partner id in every Criteo event with the `injectPartnerIdIntoCriteoEvents` method.
-The partner id will be sent with every Criteo event for the duration of the application lifecycle,
-so it must be set again when the app is re-lauched.
-The partner id can be removed by setting the `injectPartnerIdIntoCriteoEvents` method with `null`.
+It's possible to attach a partner id in every Criteo event with the `injectPartnerIdIntoCriteoEvents` method. The partner id 
+will be sent with every Criteo event for the duration of the application lifecycle, so it must be set again when the app is 
+re-lauched. The partner id can be removed by setting the `injectPartnerIdIntoCriteoEvents` method with `null`.
 
 ```java
 import com.adjust.sdk.plugin.AdjustCriteo;
