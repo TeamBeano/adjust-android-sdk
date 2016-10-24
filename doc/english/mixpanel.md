@@ -2,9 +2,9 @@
 
 The Mixpanel API allows to register common properties to be sent in all activities as `super properties`, as it is explained 
 in the [Mixpanel page][mixpanel_android]. To integrate adjust with all tracked events of Mixpanel, you must set the `super 
-properties` after receiving the response data of each activity. Follow the steps of the [attribution callback][attribution-
-callback] chapter in our Android SDK guide to implement it. The delegate function can be set as the following, to use the 
-Mixpanel API:
+properties` after receiving the response data of each activity. Follow the steps of the 
+[attribution callback][attribution-callback] chapter in our Android SDK guide to implement it. The delegate function can be 
+set as the following, to use the Mixpanel API:
 
 ```java
 public class YourApplicationClass extends Application {
