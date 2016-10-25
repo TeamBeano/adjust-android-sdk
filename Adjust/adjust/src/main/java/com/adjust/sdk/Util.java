@@ -86,7 +86,9 @@ public class Util {
     }
 
     public static String getPlayAdId(Context context) {
-        return Reflection.getPlayAdId(context);
+        // Always return null, since we don't want Adjust to track with the GAID (for compliance)
+        return null;
+        //return Reflection.getPlayAdId(context);
     }
 
     public static void getGoogleAdId(Context context, final OnDeviceIdsRead onDeviceIdRead) {
